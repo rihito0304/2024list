@@ -1,3 +1,9 @@
+ul.ddmenu {
+     margin: 0px; /* メニューバー外側の余白(ゼロ) */
+     padding: 0px 0px 0px 15px; /* メニューバー内側の余白(左に15px) */
+     background-color: #cc0000; /* バーの背景色(濃い赤色) */
+}
+
 ul.ddmenu li {
          width: 125px; /* メニュー項目の横幅(125px) */
          display: inline-block; /* ★1:横並びに配置する */
