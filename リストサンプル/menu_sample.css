@@ -27,3 +27,13 @@ ul.ddmenu ul {
  padding: 0px; /* ★3:サブメニュー内側の余白(ゼロ) */
  position: absolute; /* ★4:絶対配置にする */
 }
+
+ul.ddmenu a:hover {
+ background-color: #ffdddd; /* メニュー項目にマウスが載ったときの背景色(淡いピンク) */
+ color: #dd0000; /* メニュー項目にマウスが載ったときの文字色(濃い赤色) */
+}
+
+ul.ddmenu li:hover ul {
+ display: block; /* ★5:マウスポインタが載っている項目の内部にあるリストを表示する */
+}
+
